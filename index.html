@@ -9,35 +9,52 @@
       name="description"
       content="This is Soo's Front-End portfolio website."
     />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+
     <title>Soo's Portfolio</title>
-    <style>
-      .icon {
-        width: 24px;
-        height: 24px;
-        stroke: blue;
-      }
-    </style>
+    <style></style>
   </head>
   <body>
-    <!-- 로고 추가 예정 -->
     <!-- 네비게이션 -->
     <header>
-      <nav>
-        <ul>
-          <li>HOME</li>
-          <li>WORK</li>
-          <li>ABOUT ME</li>
-          <li>CONTACT</li>
+      <!-- 로고 추가 예정 -->
+      <img class="logo" alt="portfolio logo" src="image/newbee-logo.png" />
+      <nav class="main-nav">
+        <ul class="main-nav-list">
+          <li><a class="main-nav-link" href="#">HOME</a></li>
+          <li><a class="main-nav-link" href="#">WORK</a></li>
+          <li><a class="main-nav-link" href="#">ABOUT ME</a></li>
+          <li><a class="main-nav-link" href="#">CONTACT</a></li>
         </ul>
       </nav>
     </header>
     <!-- 소개글 -->
 
     <main>
-      <section>
-        <div>
-          <h1>박재수의 포트폴리오</h1>
-          <p>Front-End 개발자까지 한걸음..</p>
+      <section class="section-home">
+        <div class="home-text-box">
+          <h1 class="heading-primary">꿈나무 개발자의 Portfolio</h1>
+          <div class="footprint-box">
+            <p class="sub-title">Front-end 개발자까지 한걸음..</p>
+            <img
+              class="foot foot-left"
+              alt="left foot print"
+              src="image/left-footprint-svg.svg"
+            />
+            <img
+              class="foot foot-right"
+              alt="left foot print"
+              src="image/right-footprint-svg.svg"
+            />
+          </div>
         </div>
       </section>
 
@@ -51,7 +68,6 @@
         </div>
         <!-- button누르면 밑의 tabcontent가 나타나게 하자 -->
         <div id="개인 Project" class="tabcontent">g</div>
-
         <div id="팀 Project" class="tabcontent">g</div>
       </section>
       <section>
