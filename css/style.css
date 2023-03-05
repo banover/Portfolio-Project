@@ -130,6 +130,25 @@ header {
   padding-bottom: 150px;
 }
 
+.home-text-changing {
+  animation: 10s forwards 2s 3 changing-word;
+}
+
+@keyframes changing-word {
+  0% {
+    opacity: 0.8;
+  }
+  25% {
+    opacity: 0.5;
+  }
+  50% {
+    opacity: 0.2;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
 .foot {
   width: 58px;
   height: 58px;
@@ -141,11 +160,11 @@ header {
 
 .foot-right {
   margin-top: 50px;
-  animation: 20s forwards 1s 1 walking-right;
+  animation: 46s forwards 1s 1 walking-right;
 }
 
 .foot-left {
-  animation: 20s forwards 1s 1 walking-left;
+  animation: 46s forwards 1s 1 walking-left;
 }
 
 @keyframes walking-right {
