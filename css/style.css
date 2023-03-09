@@ -307,7 +307,7 @@ header {
   /* 버튼 미클릭 시에 적용 */
 }
 
-.work-sole-project-container {
+.item .work-sole-project-container {
   width: 110rem;
   height: 30rem;
 }
@@ -397,20 +397,68 @@ header {
 }
 
 .item-icon {
-  width: 24px;
-  height: 24px;
+  width: 2.8rem;
+  height: 2.8rem;
   stroke: #4d4dca;
 }
 
-.hidden {
+.open {
+  border-top: 0.4rem solid #4d4dca;
+}
+
+.open-content {
   grid-column: 2;
 }
 
-.open {
-  border-top: 4px solid #4d4dca;
+.closed-content {
+  display: none;
+  /* grid-column: 2; */
 }
 
 .open .item-number,
 .open .item-title {
   color: #4d4dca;
+}
+
+.item-content-box {
+  display: flex;
+  gap: 4rem;
+}
+
+.face-image {
+  width: 20rem;
+  height: 20rem;
+}
+
+/* CONTACT PAGE */
+
+.section-contact {
+  padding: 0rem 19.2rem 26.8rem 19.2rem;
+}
+
+.contact-detail {
+  margin-top: 3.8rem;
+  font-size: 2.2rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10rem;
+}
+
+.contact-item {
+  display: flex;
+  /* justify-content: center; */
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.contact-icon {
+  width: 24px;
+  height: 24px;
+  /* stroke: #4d4dca; */
+}
+
+.contact-address {
+  text-decoration: none;
+  color: black;
 }
