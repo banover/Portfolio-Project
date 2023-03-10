@@ -18,29 +18,30 @@
     />
 
     <link rel="stylesheet" href="css/style.css" />
-    <script defer src="temp.js"></script>
+    <script defer src="js/script.js"></script>
 
     <title>Soo's Portfolio</title>
     <style></style>
   </head>
   <body>
     <!-- 네비게이션 -->
-    <header>
-      <!-- 로고 추가 예정 -->
-      <img class="logo" alt="portfolio logo" src="image/newbee-logo.png" />
+    <header class="header">
+      <a href="#">
+        <img class="logo" alt="portfolio logo" src="image/newbee-logo.png" />
+      </a>
       <nav class="main-nav">
         <ul class="main-nav-list">
-          <li><a class="main-nav-link" href="#">HOME</a></li>
-          <li><a class="main-nav-link" href="#">WORK</a></li>
-          <li><a class="main-nav-link" href="#">ABOUT ME</a></li>
-          <li><a class="main-nav-link" href="#">CONTACT</a></li>
+          <li><a class="main-nav-link" href="#home">HOME</a></li>
+          <li><a class="main-nav-link" href="#work">WORK</a></li>
+          <li><a class="main-nav-link" href="#about">ABOUT ME</a></li>
+          <li><a class="main-nav-link" href="#contact">CONTACT</a></li>
         </ul>
       </nav>
     </header>
     <!-- 소개글 -->
 
     <main>
-      <section class="section-home">
+      <section id="home" class="section-home">
         <div class="home-text-box">
           <h1 class="heading-primary">꿈나무 개발자의 Portfolio</h1>
           <div class="footprint-box">
@@ -63,7 +64,7 @@
         </div>
       </section>
 
-      <section class="section-work">
+      <section id="work" class="section-work">
         <div class="section-container">
           <div class="section-title">
             <h2 class="secondary-heading">WORK</h2>
@@ -116,7 +117,7 @@
         <!-- button누르면 tabcontent가 나타나게 하자 -->
       </section>
 
-      <section class="section-about">
+      <section id="about" class="section-about">
         <div class="section-container">
           <div class="section-title">
             <h2 class="secondary-heading">ABOUT ME</h2>
@@ -216,7 +217,7 @@
       </section>
     </main>
     <footer>
-      <section class="section-contact">
+      <section id="contact" class="section-contact">
         <div class="section-container">
           <div class="section-title">
             <h2 class="secondary-heading">CONTACT</h2>
