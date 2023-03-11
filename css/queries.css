@@ -1,0 +1,89 @@
+/**************************/
+/* BELOW 1300px (Smaller desktops) */
+/**************************/
+
+@media (max-width: 81.25em) {
+  .section-home {
+    padding: 9.6rem 15.2rem 26.8rem 15.2rem;
+  }
+
+  .section-about {
+    padding: 0rem 15.2rem 26.8rem 15.2rem;
+  }
+}
+
+/**************************/
+/* BELOW 1200px (Landscape Tablets) */
+/**************************/
+
+@media (max-width: 75em) {
+  .section-home {
+    padding: 9.6rem 9.2rem 26.8rem 9.2rem;
+  }
+
+  .section-work {
+    padding: 0rem 9.2rem 26.8rem 9.2rem;
+  }
+
+  .section-about {
+    padding: 0rem 9.2rem 26.8rem 9.2rem;
+  }
+}
+
+/**************************/
+/* BELOW 1044px */
+/**************************/
+
+@media (max-width: 65.25em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 56.25%;
+  }
+
+  .section-home {
+    padding: 9.6rem 3.2rem 26.8rem 3.2rem;
+  }
+
+  /* .home-text-box {
+    font-size: 4.2rem;
+  } */
+
+  .section-work {
+    padding: 0rem 7.2rem 26.8rem 7.2rem;
+  }
+
+  .section-about {
+    padding: 0rem 2.2rem 26.8rem 2.2rem;
+  }
+}
+
+/**************************/
+/* BELOW 944px (Tablets) */
+/**************************/
+
+@media (max-width: 59em) {
+  html {
+    /* 9px / 16px  */
+    font-size: 50%;
+  }
+
+  .section-home {
+    padding: 9.6rem 0.2rem 26.8rem 0.2rem;
+  }
+
+  .section-work {
+    padding: 0rem 3.2rem 26.8rem 3.2rem;
+  }
+
+  .section-about {
+    padding: 0rem 2.2rem 26.8rem 2.2rem;
+  }
+}
+
+/**************************/
+/* BELOW 704px (Smaller tablets) */
+/**************************/
+
+/**************************/
+/* BELOW 544px (Phones) */
+/**************************/

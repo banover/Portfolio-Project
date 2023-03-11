@@ -56,22 +56,18 @@ body {
 header {
   display: flex;
   justify-content: space-between;
-  /* justify-content: s; */
   align-items: center;
-  /* background-color: ; */
 
   height: 9.6rem;
   padding: 0 4.8rem;
-
   /* position: relative; */
-  /* position: fixed; */
-  /* top: 0; */
+
+  /* width: 100%; */
 }
 
 .logo {
   width: 120px;
   height: 90px;
-  /* stroke: red; */
 }
 
 /* NAVIGATION */
@@ -96,6 +92,7 @@ header {
   font-weight: 500;
   /* font-size: 2rem; */
   font-size: 1.8rem;
+  transition: all 0.3s;
 }
 
 .main-nav-link:hover,
@@ -178,8 +175,8 @@ header {
 }
 
 .foot {
-  width: 58px;
-  height: 58px;
+  width: 5.8rem;
+  height: 5.8rem;
   position: absolute;
   display: block;
   opacity: 0;
