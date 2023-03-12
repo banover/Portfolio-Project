@@ -43,3 +43,18 @@ navLinks.forEach((link) => {
     }
   });
 });
+
+// make mobile navigation work
+
+const btnNavEl = document.querySelectorAll(".btn-mobile");
+const headerEl = document.querySelector(".header");
+
+btnNavEl.forEach((btn) => {
+  btn.addEventListener("click", function () {
+    headerEl.classList.toggle("nav-open");
+  });
+});
+
+// btnNavEl.addEventListener("click", function () {
+//   headerEl.classList.toggle("nav-open");
+// });
